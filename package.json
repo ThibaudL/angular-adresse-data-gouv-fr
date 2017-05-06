@@ -1,6 +1,6 @@
 {
   "name": "angular-adresse-data-gouv-fr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angularjs Service to access adresse.data.gouv.fr",
   "keywords": [
     "angularjs",

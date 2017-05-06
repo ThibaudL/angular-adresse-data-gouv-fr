@@ -24,6 +24,8 @@ export default class AdresseDataGouvFrService{
                 citycode,
                 type
             }
+        }).then((response) => {
+            return response.data;
         });
     }
 
@@ -34,6 +36,8 @@ export default class AdresseDataGouvFrService{
                 lon : coordGPS.lon,
                 type
             }
+        }).then((response) => {
+            return response.data;
         });
     }
 
@@ -46,6 +50,8 @@ export default class AdresseDataGouvFrService{
             postcode,
             citycode,
             type
+        }).then((response) => {
+            return response.data;
         });
     }
 
@@ -54,6 +60,8 @@ export default class AdresseDataGouvFrService{
             lat : coordGPS.lat,
             lon : coordGPS.lon,
             type
+        }).then((response) => {
+            return response.data;
         });
     }
 }
