@@ -1,0 +1,40 @@
+{
+  "name": "angular-adresse-data-gouv-fr",
+  "version": "1.0.0",
+  "description": "Angularjs Service to access adresse.data.gouv.fr",
+  "keywords": [
+    "angularjs",
+    "angularjs 1.x",
+    "typescript",
+    "adresse",
+    "data.gouv.fr",
+    "service",
+    "http"
+  ],
+  "author": "Thibaud Lamarche (thibaud.lamarche@gmail.com)",
+  "homepage": "https://github.com/ThibaudL/angular-adresse-data-gouv-fr",
+  "scripts": {
+    "build": "webpack -p -d",
+    "build:dev": "webpack -w -d",
+    "start": "webpack-dev-server -w -d"
+  },
+  "index": "dist/bundle.js",
+  "main": "dist/bundle.js",
+  "dependencies": {
+    "angular": "1.6.4"
+  },
+  "devDependencies": {
+    "@types/angular": "1.6.15",
+    "@types/core-js": "0.9.41",
+    "@types/node": "7.0.13",
+    "awesome-typescript-loader": "3.0.0-beta.17",
+    "css-loader": "0.26.1",
+    "style-loader": "0.16.1",
+    "json-loader": "0.5.4",
+    "raw-loader": "0.5.1",
+    "source-map-loader": "^0.2.1",
+    "typescript": "2.3.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  }
+}
